@@ -5,7 +5,7 @@
 - Juan Rey (269933)
 ## Construcción
 ### Implementaciones nuevas
-Realice algunos cambios que considere pertinentes respecto al proyectop entregado con el grupo. El principal fue la manera de encarar el calendario. Elemento que nos había fallado en el obligatorio. Y pude hacer que todas las funciones disponibles anden.
+Realice algunos cambios que considere pertinentes respecto al proyectop entregado con el grupo. El principal fue la manera de encarar el calendario. Elemento que nos había fallado en el obligatorio. Y pude hacer que todas las funciones disponibles anden. Tuve un problema con para ejecutar eslint, por un tema de versiones que no pude solucionar.
 
 
 ## Reflexión
