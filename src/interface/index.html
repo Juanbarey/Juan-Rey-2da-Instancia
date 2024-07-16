@@ -36,9 +36,10 @@
     </div>
 </form>    
 <!-- SECCION ELEGIR FECHA -->
-<div id="fecha_Ventana" style=display:none >
-    <h1 class="text-center mb-4">Fecha reserva</h1>
+<div id="fecha_Ventana" class="fecha_Ventana"style=display:none >
+    <h1 id="titulo" class="text-center mb-4">Fecha reserva</h1>
     <div >
+        <h4 id="atencion" class="text-center mb-4">Consultas</h4>
     <label for="fechaReserva">Fecha de reserva:</label>
     <input name="fechaReserva" class="form-control"type="date" id="fechaReserva" required />
     </div>
@@ -49,33 +50,12 @@
         </select>
     </div>
     <div  class="d-flex justify-content-between">
-        <button id="btnReserva"  class="btn_volver" type="button">Volver</button>
-        <button id="btnVolver" class="btn_Reserva"type="button">Confirmar Reserva</button>      
+        <button id="btnVolver"  class="btn_volver" type="button">Volver</button>
+        <button id="btnReserva" class="btn_Reserva"type="button">Confirmar Reserva</button>      
    
     </div>
 </div>
-<!-- SECCION CONFIRMAR TURNO -- CHEQUEADO -->
-<div id="sig_Ventana" class="hidden">
-    <div class="sig_Ventana">
-        <div class="btn_volver">
-            <button id="volver" class="btn btn-primary" type="submit">
-                Volver
-            </button>
-        </div>
-        <div class="horario">
-            <label for="horario">Seleccione horario</label>
-            <select id="horario" name="horario">
-                <option value="" selected disabled>Seleccione un horario...</option>
-            </select>
-        </div>
-        <textarea id="info_reserva" name="info_reserva" rows="5" cols="50" placeholder="Información de la reserva"></textarea>
-        <div class="btn_confirmar">
-            <button id="confirmar" class="btn btn-primary" type="submit">
-                Confirmar
-            </button>
-        </div>
-    </div>
-</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script src="/src/domain/doctor.js" type="module"></script>
 <script type="module" src="/src/domain/doctorlist.js"></script>

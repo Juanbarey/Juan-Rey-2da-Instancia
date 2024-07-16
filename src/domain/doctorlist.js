@@ -24,5 +24,6 @@ export default class DoctorList {
 }
 
 const listaDoctores = new DoctorList();
+
 Object.values(doctores).forEach((doctor) => listaDoctores.add(doctor));
 export { listaDoctores };
