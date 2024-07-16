@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #d47070;
+}
+
+.reserva-turno {
+  border: 1px solid rgb(214, 177, 177);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+#fecha_Ventana{
+  border: 1px solid rgb(214, 177, 177);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.reserva-turno div {
+  margin: 10px 0;
+}
+
+.reserva-turno button {
+  display: inline-block;
+  width: 45%;
+  padding: 10px;
+  margin: 5px 2.5%;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.sig_Ventana {
+  border: 1px solid black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.btn_confirmar {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.btn_search {
+  background-color: #4c97ad;
+}
+.btn_Reserva {
+  background-color: #4c97ad;
+  display: inline-block;
+  width: 45%;
+  padding: 10px;
+  margin: 5px 2.5%;
+  cursor: pointer;
+}
+
+.btn_volver{
+  display: inline-block;
+  width: 45%;
+  padding: 10px;
+  margin: 5px 2.5%;
+  cursor: pointer;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  color: #444;
+}
+
+.calendar {
+  background: #ffffff;
+  width: 80%;
+  max-width: 600px;
+  margin: 1em auto;
+  padding: .5em 0;
+}
+
+
